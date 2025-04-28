@@ -18,4 +18,31 @@
 1. **¿Dónde aprender más sobre transformers?**  
    Respuesta: Enlace a Hugging Face o Papers With Code.  
 
-... (seguir agregando categorías según necesidades)  
+### 🤖 Agregar UV al ordenador
+```bash
+# Desde MacOs o Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+```powershell
+# Desde Windows
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+### 🦙 Descargar [Ollama](https://ollama.com/)
+
+```bash
+# Validar Ollama descargado
+Ollama
+
+# Descargar modelos
+Ollama run (nombre_modelo)
+
+# Listar modelos
+Ollama list (nombre_modelo)
+
+# Eliminar modelos
+Ollama rm (nombre_modelo)
+
+# Detener modelos
+Ollama stop (nombre_modelo)
+```
